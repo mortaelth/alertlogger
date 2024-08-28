@@ -10,11 +10,11 @@ alertlogger:
 
 .PHONY: dockerimages
 dockerimages:
-	docker build -t mwennrich/alertlogger:${DOCKER_TAG} .
+	docker build -t mortaelth/alertlogger:${DOCKER_TAG} .
 
 .PHONY: dockerpush
 dockerpush:
-	docker push mwennrich/alertlogger:${DOCKER_TAG}
+	docker push mortaelth/alertlogger:${DOCKER_TAG}
 
 .PHONY: clean
 clean:
