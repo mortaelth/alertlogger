@@ -2,8 +2,7 @@ name: Build image from release tag
 
 on:
   release:
-    types:
-      - published
+    types: []
 
 jobs:
   build:
